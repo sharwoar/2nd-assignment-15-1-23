@@ -253,6 +253,19 @@ footer {
     }
     .features{
         flex-direction: column;
+        padding: 10px;
+        width: 100%;
+        
+    }
+    .fratures-blog{
+        text-align: center;
+        width: 80%;
+    }
+    .experience-img{
+        width: fit-content;
+    }
+    .fratures-blog-txt{
+        width: 100%;
     }
     .facts{
         flex-direction: column;
@@ -265,8 +278,20 @@ footer {
         grid-template-columns: repeat(1, 1fr);
         row-gap: 50px;
     }
-    ..sponspors{
+    .sponspors{
         flex-direction: column;
+        row-gap: 15px;
+    }
+    footer{
+        margin: 0;
+        margin-left: 50px;
+        padding: 0;
+        text-align: center;
+    }
+    .section-wrapper {
+        padding: 10px 10%;
+        margin-bottom: 25px;
+    
     }
 
 
